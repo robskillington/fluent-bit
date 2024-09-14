@@ -78,6 +78,8 @@ jobs:
             runner: macos-12
           - name: "Apple Silicon macOS runner"
             runner: macos-14
+          - name: "Legacy macOS-10 runner (Intel)"
+            runner: macos-10
 
     steps:
       - name: Checkout repository
