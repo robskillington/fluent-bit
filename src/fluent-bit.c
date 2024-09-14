@@ -943,6 +943,7 @@ static int parse_trace_pipeline(flb_ctx_t *ctx, const char *pipeline, char **tra
 }
 #endif
 
+// NB(rob): test comment to check if GitHub Action MacOS build runs.
 int flb_main(int argc, char **argv)
 {
     int opt;
